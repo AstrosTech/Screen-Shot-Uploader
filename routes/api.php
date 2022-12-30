@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware('auth:sanctum')->group(function () {
-    Route::post('/upload', [App\Http\Controllers\UploadController::class, 'store'])->name('uploads.store');
+    Route::post('/upload', [App\Http\Controllers\Api\UploadController::class, 'store'])->name('uploads.store');
 });

@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Http\Requests\UploadStoreRequest;
 use Illuminate\Support\Facades\Storage;
+use App\Http\Controllers\Controller;
 use App\Services\UploadService;
 use App\Models\Upload;
 
